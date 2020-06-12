@@ -2,6 +2,10 @@ import numpy as np
 import os
 import argparse
 
+"""
+This module has functions associated with analyzing the geometry of a molecule.
+"""
+
 def calc_dist(coords1, coords2):
     distance = np.sqrt((coords1[0]-coords2[0])**2+(coords1[1]-coords2[1])**2+(coords1[2]-coords2[2])**2)
     return distance
